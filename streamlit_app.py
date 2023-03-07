@@ -1,5 +1,5 @@
 from gpt_index import GPTSimpleVectorIndex
-from langchain import openai
+from langchain import OpenAI
 import os
 import streamlit as st
 
