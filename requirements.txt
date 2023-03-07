@@ -1,3 +1,4 @@
 gpt-index
 langchain
 streamlit
+openai
