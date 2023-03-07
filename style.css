@@ -1,0 +1,36 @@
+body {
+  background-color: #f2e6ff;
+}
+
+.stTextInput > div > div > input {
+  border-color: #7c19dd;
+  border-width: 2px;
+  color: #7c19dd;
+}
+
+.stButton button {
+  background-color: #7c19dd;
+  color: white;
+}
+
+.stButton button:hover {
+  background-color: #f2e6ff;
+  color: #7c19dd;
+}
+
+  .headline {
+        font-size: 40px;
+        font-weight: bold;
+        color: #7c19dd;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+.warning {
+  background-color: #ffe6e6;
+  color: #cc0000;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+}
