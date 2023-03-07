@@ -2,6 +2,7 @@ from gpt_index import GPTSimpleVectorIndex
 from langchain import OpenAI
 import os
 import streamlit as st
+import openai
 
 # Set the OpenAI API key
 openai.api_key = st.secrets['openai']['api_key']
