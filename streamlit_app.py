@@ -4,11 +4,13 @@ import os
 import streamlit as st
 import openai
 
+#Page Config For Streamlit
+st.set_page_config(page_title='Benefits Booklet Q&A')
+
 # Set the OpenAI API key
 st.secrets['openai']['api_key']
 
-#Page Config For Streamlit
-st.set_page_config(page_title='Benefits Booklet Q&A')
+
 
 # Load the CSS styles from file
 with open("style.css") as f:
