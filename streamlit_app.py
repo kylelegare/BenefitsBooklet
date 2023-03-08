@@ -7,7 +7,11 @@ import openai
 #Page Config For Streamlit
 st.set_page_config(page_title='Benefits Booklet Q&A')
 
-openai_api_key = st.secrets["openai"]["api_key"]
+# Retrieve the OpenAI API key from the secrets
+secrets = st.secrets["openai"]
+openai_api_key = secrets["api_key"]
+
+# Set the OpenAI API key
 openai.api_key = openai_api_key
 
 # Load the CSS styles from file
