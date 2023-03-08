@@ -7,8 +7,8 @@ import openai
 #Page Config For Streamlit
 st.set_page_config(page_title='Benefits Booklet Q&A')
 
-# Get the OpenAI API key from the Streamlit Secrets
-openai_api_key = st.secrets["openai"]["api_key"]
+openai_api_key = st.secrets['openai']['OPENAI_API_KEY']
+openai.api_key = openai_api_key
 
 # Set the OpenAI API key
 openai.api_key = openai_api_key
