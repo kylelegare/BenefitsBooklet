@@ -10,7 +10,6 @@ st.set_page_config(page_title='Benefits Booklet Q&A')
 openai_api_key = st.secrets["openai"]["api_key"]
 openai.api_key = openai_api_key
 
-
 # Load the CSS styles from file
 with open("style.css") as f:
     styles = f.read()
